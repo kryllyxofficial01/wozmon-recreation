@@ -33,9 +33,9 @@ void loop() {
         }
     }
     else {
-        sram_write(random(pow(2, 15) - 1), random(UINT8_MAX));
+        // sram_write(random(pow(2, 15) - 1), random(UINT8_MAX));
 
-        delay(1000);
+        // delay(1000);
     }
 }
 
